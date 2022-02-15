@@ -1,12 +1,9 @@
 # <p align="center"> Desafio de Programação - Academia Java Capgemini 2022 </p>
-<tr>
-  <td> <p> <img src="https://capgemini.proway.com.br/assets/img/logo-capgemini.png" align="right" alt=""/> </p> </td> 
 
-  <td> 
+<p> 
+  <img src="https://capgemini.proway.com.br/assets/img/logo-capgemini.png" align="right" alt=""/> </p>
     <h3><p align="center"> Desafio realizado durante o processo seletivo da Academia Java Capgemini </p></h3>
     <h4><p align="center"> Realização de 3 exercícios de diversos níveis de dificuldade para implementar a melhor lógica de programação na linguagem Java.</p></h4>
-  </td>
-</tr>
 
 
 ## 🖥️ Como Executar
@@ -18,10 +15,12 @@
       
 - Abra o conteúdo da pasta clonada na IDE de sua preferência;
 - Acesse a pasta "src" para exibir os exercícios do desafio e executá-los;
+ 
+## ✍️ Exercícios
 
-Exercício 1 - Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
+<a href="https://github.com/palomapfalchi/desafio-programacao/blob/master/src/Ex1.java">Exercício 1 </a>- Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
 ##
-Exercício 2 - Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
+<a href="https://github.com/palomapfalchi/desafio-programacao/blob/master/src/Ex2.java">Exercício 2</a> - Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
 
 - Possui no mínimo 6 caracteres.
 - Contém no mínimo 1 digito.

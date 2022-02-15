@@ -40,6 +40,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - <a href="https://www.java.com/pt-BR/">Java</a>
 - <a href="https://www.jetbrains.com/pt-br/idea">IntelliJ IDEA</a>
 
+## 🛠 Ajuda
+links uteis
+
 ## Desenvolvedora
 <a href="https://github.com/palomapfalchi"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85750919?v=4" width="100px;" alt=""/><br /><sub><b>Paloma Patrícia Falchi</b></sub></a><br /></a>
 

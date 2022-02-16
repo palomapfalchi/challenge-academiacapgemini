@@ -5,6 +5,7 @@ public class Ex1 {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Digite o valor de N: ");
         int N = scanner.nextInt();
         String star = "*";
 

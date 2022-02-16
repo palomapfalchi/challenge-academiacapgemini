@@ -1,73 +1,116 @@
+import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.String.valueOf;
 
 public class Ex3 {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite a palavra que você quer analisar: ");
         String palavra = scanner.nextLine();
 
-        int count = 0;
-        for (int i=0; i<palavra.length(); i++) { //indice por indice [0],[1],[2]
-            for (int j=1; j<palavra.length(); j++) {
-                char char1 = palavra.charAt(i); // o, v, o
-                char char2 = palavra.charAt(j); // o, v, o
+        ArrayList<String> listaSubstring = new ArrayList<>();
+        ArrayList<String> anagramas = new ArrayList<>();
 
-                System.out.println("i:" + i + " char1: " + char1);
-                System.out.println("j:" + j + " char2: " + char2);
+        int countIguais = 0;
+
+        //VERIFICA INDICE POR INDICE, COMPRIMENTO DA PALAVRA INTEIRA.
+        for (int i=0; i<palavra.length(); i++) {
+            for (int j=1; j<palavra.length(); j++) {
+
+                char charI = palavra.charAt(i); //0,1,2
+                char charJ = palavra.charAt(j); //1,2
+                String combinacaoIj = valueOf(charI) + valueOf(charJ);
+
+                System.out.println("i: " + i + " charI: " + charI);
+                System.out.println("j: " + j + " charJ: " + charJ);
                 System.out.println();
 
-                if (char1 == char2) {
-
-                    System.out.println("entrei no if, E SOMO!!!");
-                    count = count + 1;
-                    System.out.println(char1 + ", " + char2);
-                    System.out.println("count: " + count);
+                //SE CARACTERES IGUAIS = OO, BB, AA.. E INDICES DIFERENTES
+                if (charI == charJ && i != j) {
+                        countIguais = countIguais + 1;
+                        System.out.println("elementos iguais: " + countIguais);
+                        System.out.println();
+                        anagramas.add(i, combinacaoIj);
+                }
+                if (charI != charJ) {
+                    listaSubstring.add(i, combinacaoIj);
                 }
 
             }
-        }
-        System.out.println("Contador: " + count);
 
+        }
+        System.out.println("Lista de substrings: " + listaSubstring);
+        System.out.println("PAR DE LETRAS IGUAIS: " + countIguais);
+        System.out.println("ANAGRAMAS: " + anagramas);
     }
+
+
 }
 
+//---------------------------------------------------------------------
 /*
-        int count = 0;
 
-        for (int i = 0; i < palavraDigitada.length(); i++) { //indice por indice [0],[1],[2]
-            System.out.println("entrei no for 1-" + i);
-            char ch = palavraDigitada.charAt(i); //o, v, o
-            for (int j = 0; j < palavraDigitada.length(); j++) {
-                System.out.println("entrei no for 2-" + j);
-                if (palavraDigitada.charAt(j) == ch) {
-                    System.out.println("entrei no if-" + j);
-                    count = count++;
-                    System.out.println("Contei-" + count);
+               String combinacaoIj = valueOf(charI) + valueOf(charJ);
+
+                //String stringJ = new StringBuilder(listaSubstring.get(j).reverse().toString());
+                //StringBuilder stringInvertida = stringJ.reverse();
+
+
+
+                System.out.println("i: " + i + " charI: " + charI);
+                System.out.println("j: " + j + " charJ: " + charJ);
+                System.out.println();
+                //SE CARACTERES IGUAIS = OO, BB, AA..
+                if (charI == charJ) {
+                    if (i != j) { //conta se os indices forem diferentes: OvO, OOvo
+                        countIguais = countIguais + 1;
+                        System.out.println("elementos iguais: " + countIguais);
+                        System.out.println();
+                        listaSubstring.add(i, combinacaoIj);
+                        anagramas.add(i, combinacaoIj);
+                    }
                 }
-                if(i != j) {
-                    count = count++;}
+                //----------------------
 
+
+
+                for (int s1=0; s1<substring.length(); s1++) {
+                    if (listaSubstring.get(i).equals(stringInvertida)) {
+
+                        System.out.println("COMBINACOES: " + countIguais);
+                        System.out.println("INVERTIDAS: " + stringInvertida);
+                        System.out.println();
+                    }
+                }
+
+                }
+            }
+
+
+//SE COMBINACAO É IGUAL A OUTRA COMBINAÇÃO
+        for (int s1=0; s1<substring.length(); s1++) {
+            if (listaSubstring.get(j) == stringInvertida) {
+
+                System.out.println("COMBINACOES: " + countIguais);
+                System.out.println("INVERTIDAS: " + stringInvertida);
+                System.out.println();
             }
         }
-        System.out.println(count);
-    }
-}
+        String substring = listaSubstring;
+        for (int i=0; i<substring.length(); i++) {
+            for (int j = 0; j < substring.length(); j++) {
+                substring = substring.indexOf();
+                //ARMAZENA TODAS AS COMBINAÇOES EM UM ARRAY
 
-        int count = 0;
-        boolean temLetraRepetida = true;
-        int ultimoIndice = palavra.length() - 1;
-
-        for (int i=0; i<palavra.length(); i++) { //acessa os indices da palavra digitada [0],[1]..
-            for (int j=ultimoIndice; j=0; j--) {
-                if (palavra.charAt(i) == palavra.charAt(j)) {
-                    temLetraRepetida = true;
-                    count = count++;
-                    System.out.println(count);
+                if (i != j) {
+                    System.out.println("Substring: " + substring);
+                    listaSubstring.add(i, substring);
+                    System.out.println();
                 }
-            System.out.println(palavra.charAt(i));
-
-                }
-
             }
-       */
+        }
+    
+}*/

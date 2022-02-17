@@ -11,10 +11,10 @@
 - Escolha a pasta que irá salvar os arquivos e abra o terminal;
 - Clone o repositório usando o seguinte comando;
 
-      $ git clone 
+      $ git clone https://github.com/palomapfalchi/desafio-programacao.git
       
 - Abra o conteúdo da pasta clonada na IDE de sua preferência;
-- Acesse a pasta "src" para exibir os exercícios do desafio e executá-los;
+- Acesse a pasta "<a href="https://github.com/palomapfalchi/desafio-programacao/tree/master/src">src</a>" para exibir os exercícios do desafio e executá-los;
  
 ## ✍️ Exercícios
 
@@ -40,13 +40,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - <a href="https://www.java.com/pt-BR/">Java</a>
 - <a href="https://www.jetbrains.com/pt-br/idea">IntelliJ IDEA</a>
 
-## 🙋‍♀️ Minha opinião sobre o desafio
-Achei o desafio com nível de diculdade intermediário, a questão 3 foi a que mais me empenhei pra fazer. 
-Aprendi diversos conceitos como, StringBuilder, ArrayList, Regex etc.
-Acrescentou demais no meu aprendizado e a cada dia que passa me sinto mais preparada para desafios maiores.
+## 🙋‍♀️ Meu Feedback sobre o desafio
+Achei o desafio com nível de diculdade intermediário, a questão 3 foi a que mais me empenhei pra fazer.
+Inclusive, se alguém puder me ajudar a concluir a questão 3 e dar um feedback sobre meu código agradeço demais!!
 
-## Desenvolvedora
-<a href="https://github.com/palomapfalchi"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85750919?v=4" width="100px;" alt=""/><br /><sub><b>Paloma Patrícia Falchi</b></sub></a><br /></a>
+Nesse desafio, aprendi diversos conceitos como, StringBuilder, ArrayList, List, Regex etc. 
+E com certeza acrescentou demais no meu aprendizado e crescimento como dev e me fez ver o tanto que eu ainda preciso aprender pra ser F*** em Java! ☕
 
+#
 
+Se você leu até aqui, obrigada! Se possível, deixe um feedback no meu <a href="https://www.linkedin.com/in/palomafalchi/">Linkedin</a> 💙
 

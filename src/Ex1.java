@@ -14,7 +14,6 @@ public class Ex1 {
                 System.out.print(" ");
                 System.out.println(star.repeat(i));
         }
-
         System.out.print(star.repeat(N));
     }
 }

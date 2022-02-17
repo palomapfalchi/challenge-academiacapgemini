@@ -1,9 +1,4 @@
-
-import java.sql.SQLOutput;
 import java.util.*;
-
-import static java.lang.String.valueOf;
-
 public class Ex3 {
 
     public static void main(String[] args) {
@@ -12,18 +7,7 @@ public class Ex3 {
         System.out.print("Digite a palavra que você quer analisar: ");
         String palavra = scanner.nextLine();
 
-
-
-        System.out.println("MINHA STRING: " + palavra);
-        StringBuilder strb = new StringBuilder(palavra);
-        palavra = strb.reverse().toString();
-        System.out.println("MINHA STRING REVERSA: " + palavra);
-
-
-        //String paalvraInvertida = palavra.repl
-
-        ArrayList<String> listaSubstring = new ArrayList<>();
-        ArrayList<String> listaReversa = new ArrayList<>();
+        ArrayList<String> todasStrings = new ArrayList<>();
         ArrayList<String> anagramas = new ArrayList<>();
 
         int countIguais = 0;
@@ -33,17 +17,19 @@ public class Ex3 {
 
                 char charI = palavra.charAt(i);
                 char charJ = palavra.charAt(j);
+
                 String novaString = palavra.substring(i, j + 1);
 
                 if (i != j) {
                     if (charI == charJ) {
                         countIguais = countIguais + 1;
-                        anagramas.add(novaString);
+                        anagramas.add(palavra.substring(i, i+1));
                     }
-                    listaSubstring.add(novaString);
-
+                    todasStrings.add(novaString);
                 }
             }
         }
+        System.out.println("Anagramas: " + anagramas.size() + " - " + anagramas);
+        System.out.println("Todas Substrings: " + todasStrings);
     }
 }

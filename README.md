@@ -31,7 +31,7 @@
 Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura.
 ##
 
-Exercício 3: Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
+<a href="https://github.com/palomapfalchi/desafio-programacao/blob/master/src/Ex3.java">Exercício 3 </a> - Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
 
 ## 🛠 Tecnologias
 
@@ -40,8 +40,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - <a href="https://www.java.com/pt-BR/">Java</a>
 - <a href="https://www.jetbrains.com/pt-br/idea">IntelliJ IDEA</a>
 
-## 🛠 Ajuda
-links uteis
+## 🙋‍♀️ Minha opinião sobre o desafio
+Achei o desafio com nível de diculdade intermediário, a questão 3 foi a que mais me empenhei pra fazer. 
+Aprendi diversos conceitos como, StringBuilder, ArrayList, Regex etc.
+Acrescentou demais no meu aprendizado e a cada dia que passa me sinto mais preparada para desafios maiores.
 
 ## Desenvolvedora
 <a href="https://github.com/palomapfalchi"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85750919?v=4" width="100px;" alt=""/><br /><sub><b>Paloma Patrícia Falchi</b></sub></a><br /></a>
